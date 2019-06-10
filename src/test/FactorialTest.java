@@ -20,17 +20,17 @@ public class FactorialTest {
   @Test
   public void test2() {
 	  Factorial s=new Factorial();
-	  int a=2;
+	  int a=0;
 	  int actual=s.Fact(a);
-	  Assert.assertEquals(actual,2);
+	  Assert.assertEquals(actual,1);
  
   }
   @Test
   public void test3() {
 	  Factorial s=new Factorial();
-	  int a=5;
+	  int a=1;
 	  int actual=s.Fact(a);
-	  Assert.assertEquals(actual,120);
+	  Assert.assertEquals(actual,1);
  
   }
 
