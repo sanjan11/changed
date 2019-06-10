@@ -5,7 +5,7 @@ public class Prime {
       public static boolean Prime(int a){
     int m=a/2;
     int q=0;
-    	if(a==0||a==1){
+    	if(a==0||a==1||a<0){
     		  return false;
     	}else {
     		for(int i=2;i<= m;i++){
