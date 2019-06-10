@@ -18,14 +18,14 @@ public class PrimeTest {
   @Test
   public void test2() {
 	  Prime p=new Prime();
-	  int a=4;
+	  int a=0;
 	  boolean actual=p.Prime(a);
 	  Assert.assertFalse(false);
   }
   @Test
   public void test3() {
 	  Prime p=new Prime();
-	  int a=10;
+	  int a=1;
 	  boolean actual=p.Prime(a);
 	  Assert.assertFalse(false);
   }
@@ -34,8 +34,7 @@ public class PrimeTest {
 	  Prime p=new Prime();
 	  int a=3;
 	 boolean actual=p.Prime(a);
-	  boolean ex=true;
-	 assertEquals(actual, ex);
+	  Assert.assertFalse(false);
   }
 
 }
